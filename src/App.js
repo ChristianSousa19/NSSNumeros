@@ -1,15 +1,22 @@
-import React from 'react';
-import Sidebar from './components/Drawer/SideBar/SideBar';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sidebar from "./components/SideBar/SideBar";
+import Home from "./pages/Home/home";
+import Sobre from "./pages/Sobre/Sobre";
+import Contato from "./pages/Contato/Contto";
+// Importe as pagins isbele
 
-function App() {
+const App = () => {
   return (
-    <div style={{ display: 'flex' }}>
-      <Sidebar />
-      <div style={{ flex: 1, padding: '20px' }}>
-        <h1>Conteúdo Principal</h1>
-      </div>
-    </div>
+    <Router>
+      <Sidebar open={true} />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/Contato" element={<Contato />} />
+        {/* Adicione outras rotas isa grey */}
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
