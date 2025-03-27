@@ -23,7 +23,7 @@ import premiacoes from "./pages/Governança-e-Gestao/Premiaçoes-e-certificaçoe
 import portifolio from "./pages/Governança-e-Gestao/Portifolio/portifolio" 
 import pessoas from "./pages/Governança-e-Gestao/Pessoas/pessoas" 
 import investimento from "./pages/Governança-e-Gestao/Investimento-de-TI/investimento" 
-import gerencimento from "./pages/Governança-e-Gestao/Gerenciamento-de-Serviços/gerenciamento" 
+import gerenciamento from "./pages/Governança-e-Gestao/Gerenciamento-de-Serviços/gerenciamento" 
 import ASG from "./pages/Governança-e-Gestao/ASG/ASG"
 import tecnologias from "./pages/Tecnologias Disruptivas/tecnologias"
 
