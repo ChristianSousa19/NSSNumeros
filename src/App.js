@@ -68,7 +68,7 @@ const App = () => {
         <Route path="/Governança-e-Gestao/Portifolio/portifolio" element={<portifolio />} />
         <Route path="/Governança-e-Gestao/Pessoas/pessoas" element={<pessoas />} />
         <Route path="/Governança-e-Gestao/Investimento-de-TI/investimento" element={<investimento />} />
-        <Route path="/Governança-e-Gestao/Gerenciamento-de-Serviços/gerenciamento" element={<gerencimento />} />
+        <Route path="/Governança-e-Gestao/Gerenciamento-de-Serviços/gerenciamento" element={<gerenciamento />} />
         <Route path="/Governança-e-Gestao/ASG/ASG" element={<ASG />} />
 
         {/* Tecnologias Disruptivas */}
