@@ -1,6 +1,6 @@
 import React from 'react';
 
-const pix = () => {
+const Pix = () => {
   return (
     <div>
       <h1>Pix</h1>
@@ -10,4 +10,4 @@ const pix = () => {
   );
 };
 
-export default pix;
+export default Pix;

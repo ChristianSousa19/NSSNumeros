@@ -1,6 +1,6 @@
 import React from 'react';
 
-const conectividade = () => {
+const Conectividade = () => {
   return (
     <div>
       <h1>Conectividade</h1>
@@ -10,4 +10,4 @@ const conectividade = () => {
   );
 };
 
-export default conectividade;
+export default Conectividade;

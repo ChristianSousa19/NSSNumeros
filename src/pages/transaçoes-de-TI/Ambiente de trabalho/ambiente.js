@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ambiente = () => {
+const Ambiente = () => {
   return (
     <div>
       <h1>Ambiente</h1>
@@ -10,4 +10,4 @@ const ambiente = () => {
   );
 };
 
-export default ambiente;
+export default Ambiente;

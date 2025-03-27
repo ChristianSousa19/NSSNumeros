@@ -1,6 +1,6 @@
 import React from 'react';
 
-const canaisPF = () => {
+const CanaisPF = () => {
   return (
     <div>
       <h1>canaisPF</h1>
@@ -10,4 +10,4 @@ const canaisPF = () => {
   );
 };
 
-export default canaisPF;
+export default CanaisPF;

@@ -1,5 +1,5 @@
 import React from 'react';
-const investimento = () => {
+const Investimento = () => {
   return (
     <div>
       <h1>Investimento</h1>
@@ -8,5 +8,5 @@ const investimento = () => {
     </div>
   );
 };
-export default investimento;
+export default Investimento;
  

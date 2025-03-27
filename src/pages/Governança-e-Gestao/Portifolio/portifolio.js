@@ -1,5 +1,5 @@
 import React from 'react';
-const portifolio = () => {
+const Portifolio = () => {
   return (
     <div>
       <h1>Portifólio</h1>
@@ -8,5 +8,5 @@ const portifolio = () => {
     </div>
   );
 };
-export default portifolio;
+export default Portifolio;
  

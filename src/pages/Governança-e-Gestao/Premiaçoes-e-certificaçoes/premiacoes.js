@@ -1,5 +1,5 @@
 import React from 'react';
-const premiacoes = () => {
+const Premiacoes = () => {
   return (
     <div>
       <h1>premiaçoes</h1>
@@ -8,5 +8,5 @@ const premiacoes = () => {
     </div>
   );
 };
-export default premiacoes;
+export default Premiacoes;
  

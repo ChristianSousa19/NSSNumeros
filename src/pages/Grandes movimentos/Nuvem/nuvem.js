@@ -1,6 +1,6 @@
 import React from 'react';
 
-const nuvem = () => {
+const Nuvem = () => {
   return (
     <div>
       <h1>Nuvem</h1>
@@ -10,4 +10,4 @@ const nuvem = () => {
   );
 };
 
-export default nuvem;
+export default Nuvem;

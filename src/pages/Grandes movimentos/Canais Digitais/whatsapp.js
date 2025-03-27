@@ -1,5 +1,5 @@
 import React from 'react';
-const whatsapp = () => {
+const Whatsapp = () => {
   return (
     <div>
       <h1>whatsapp</h1>
@@ -8,5 +8,5 @@ const whatsapp = () => {
     </div>
   );
 };
-export default whatsapp;
+export default Whatsapp;
  

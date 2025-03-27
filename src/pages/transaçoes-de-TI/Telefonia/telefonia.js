@@ -1,6 +1,6 @@
 import React from 'react';
 
-const telefonia = () => {
+const Telefonia = () => {
   return (
     <div>
       <h1>Telefonia</h1>
@@ -10,4 +10,4 @@ const telefonia = () => {
   );
 };
 
-export default telefonia;
+export default Telefonia;

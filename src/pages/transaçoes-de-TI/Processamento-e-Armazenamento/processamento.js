@@ -1,6 +1,6 @@
 import React from 'react';
 
-const processamento = () => {
+const Processamento = () => {
   return (
     <div>
       <h1>processamento</h1>
@@ -10,4 +10,4 @@ const processamento = () => {
   );
 };
 
-export default processamento;
+export default Processamento;

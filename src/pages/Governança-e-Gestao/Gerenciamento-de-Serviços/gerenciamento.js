@@ -1,5 +1,5 @@
 import React from 'react';
-const gerenciamento = () => {
+const Gerenciamento = () => {
   return (
     <div>
       <h1>Gerenciamento</h1>
@@ -8,5 +8,5 @@ const gerenciamento = () => {
     </div>
   );
 };
-export default gerenciamento;
+export default Gerenciamento;
  

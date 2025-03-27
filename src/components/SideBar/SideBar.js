@@ -7,7 +7,7 @@ import Logo from "caminho/para/seu/logo.svg"; // O arquivo de logo que você est
 import Translator from "../i18n/Translator";
 
 const menuItems = [
-  { id: "1",  name: <Translator path="menu.home" />, icon: Dashboard },
+  { id: "1",  name: <Translator path="menu.Home" />, icon: Dashboard },
   { id: "2", name: "Sobre", route: "/Sobre", icon: Receitas },
   { id: "3", name: "Contact", route: "/Contato", icon: Pagamentos },
   {
@@ -16,12 +16,12 @@ const menuItems = [
     icon: Acessos,
     isSubmenu: true,
     submenu: [
-      { id: "4-1", name: "Processamento e Armazenamento", route: "/transacoes-de-TI/processamento-e-armazenamento/processamento" },
-      { id: "4-2", name: "Connectividade", route: "/transacoes-de-TI/conectividade/conectividade" },
-      { id: "4-3", name: "Atendimento", route: "/transacoes-de-TI/Atendimento/atendimento" },
-      { id: "4-4", name: "Ambiente de Trabalho", route: "/transacoes-de-TI/Ambiente de trbalho/ambiente" },
-      { id: "4-5", name: "Colaboraçao", route: "/transacoes-de-TI/Colaboraçao/colaboracao" },
-      { id: "4-6", name: "Telefonia", route: "/transacoes-de-TI/Telefonia/telefonia" },
+      { id: "4-1", name: "Processamento e Armazenamento", route: "/transacoes-de-TI/Processamento-e-Armazenamento/Processamento" },
+      { id: "4-2", name: "Connectividade", route: "/transacoes-de-TI/conectividade/Conectividade" },
+      { id: "4-3", name: "Atendimento", route: "/transacoes-de-TI/Atendimento/Atendimento" },
+      { id: "4-4", name: "Ambiente de Trabalho", route: "/transacoes-de-TI/Ambiente de trabalho/Ambiente" },
+      { id: "4-5", name: "Colaboraçao", route: "/transacoes-de-TI/Colaboraçao/Colaboracao" },
+      { id: "4-6", name: "Telefonia", route: "/transacoes-de-TI/Telefonia/Telefonia" },
     ],
   },
   {
@@ -30,19 +30,19 @@ const menuItems = [
     icon: Clientes,
     isSubmenu: true,
     submenu: [
-      { id: "5-1", name: "Nuvem", route: "/Grandes movimentos/Nuvem/nuvem" },
+      { id: "5-1", name: "Nuvem", route: "/Grandes movimentos/Nuvem/Nuvem" },
       { id: "5-2", name: "BaaS", route: "/Grandes movimentos/BASS/BASS" },
-      { id: "5-3", name: "Pix", route: "/Grandes movimentos/PIX/pix" },
-      { id: "5-4", name: "Low Code", route: "/Grandes movimentos/Low Code/lowcode" },
+      { id: "5-3", name: "Pix", route: "/Grandes movimentos/PIX/Pix" },
+      { id: "5-4", name: "Low Code", route: "/Grandes movimentos/Low Code/Lowcode" },
       {
         id: "5-5",
         name: "Canais Digitais",
         isSubmenu: true,
         submenu: [
           { id: "5-5-1", name: "Canis Digitais", route: "/Grandes movimentos/Canais Digitais/" },
-          { id: "5-5-2", name: "Canais PF", route: "/Grandes movimentos/Canais Digitais/canaisPF" },
-          { id: "5-5-3", name: "Canais PJ", route: "/Grandes movimentos/Canais Digitais/canaisPJ" },
-          { id: "5-5-4", name: "Whatsapp", route: "/Grandes movimentos/Canais Digitais/whtsapp" },
+          { id: "5-5-2", name: "Canais PF", route: "/Grandes movimentos/Canais Digitais/CanaisPF" },
+          { id: "5-5-3", name: "Canais PJ", route: "/Grandes movimentos/Canais Digitais/CanaisPJ" },
+          { id: "5-5-4", name: "Whatsapp", route: "/Grandes movimentos/Canais Digitais/Whtsapp" },
         ],
       },
     ],
@@ -53,13 +53,13 @@ const menuItems = [
     icon: Configuracao,
     isSubmenu: true,
     submenu: [
-      { id: "6-1", name: "Gerenciamento de Serviço", route: "/Gorvernança-e-Gestao/Gerenciamento-de-Serviços/gerencimento" },
-      { id: "6-2", name: "Investimento rm TI", route: "/Gorvernança-e-Gestao/Investimento-de-TI/investimento" },
-      { id: "6-3", name: "Pessoas", route: "/Gorvernança-e-Gestao/Pessoas/pessoas" },
-      { id: "6-4", name: "Riscos", route: "/Gorvernança-e-Gestao/Riscos/riscos" },
+      { id: "6-1", name: "Gerenciamento de Serviço", route: "/Gorvernança-e-Gestao/Gerenciamento-de-Serviços/Gerencimento" },
+      { id: "6-2", name: "Investimento rm TI", route: "/Gorvernança-e-Gestao/Investimento-de-TI/Investimento" },
+      { id: "6-3", name: "Pessoas", route: "/Governança-e-Gestao/Pessoas/Pessoas" },
+      { id: "6-4", name: "Riscos", route: "/Gorvernança-e-Gestao/Riscos/Riscos" },
       { id: "6-5", name: "ASG", route: "/Gorvernança-e-Gestao/ASG/ASG" },
-      { id: "6-6", name: "Portifolio", route: "/Gorvernança-e-Gestao/Portfolio/portifolio" },
-      { id: "6-7", name: "Premiações e Certificações", route: "/Gorvernança-e-Gestao/Premiaçoes-e-certificaçoees/´premiacoes" },
+      { id: "6-6", name: "Portifolio", route: "/Gorvernança-e-Gestao/Portfolio/Portifolio" },
+      { id: "6-7", name: "Premiações e Certificações", route: "/Gorvernança-e-Gestao/Premiaçoes-e-certificaçoees/Premiacoes" },
     ],
   },
   {
@@ -68,7 +68,7 @@ const menuItems = [
     icon: Display,
     isSubmenu: true,
     submenu: [
-      { id: "7-1", name: "LINK", route: "/Tecnologias Disruptivas/tecnologias" },
+      { id: "7-1", name: "LINK", route: "/Tecnologias Disruptivas/Tecnologias" },
       
     ],
   },

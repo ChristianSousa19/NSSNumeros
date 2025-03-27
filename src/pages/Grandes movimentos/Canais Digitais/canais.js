@@ -1,6 +1,6 @@
 import React from 'react';
 
-const canais = () => {
+const Canais = () => {
   return (
     <div>
       <h1>canais</h1>
@@ -10,4 +10,4 @@ const canais = () => {
   );
 };
 
-export default canais;
+export default Canais;

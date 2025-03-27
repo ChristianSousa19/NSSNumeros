@@ -1,5 +1,5 @@
 import React from 'react';
-const riscos = () => {
+const Riscos = () => {
   return (
     <div>
       <h1>Riscos</h1>
@@ -8,5 +8,5 @@ const riscos = () => {
     </div>
   );
 };
-export default riscos;
+export default Riscos;
  

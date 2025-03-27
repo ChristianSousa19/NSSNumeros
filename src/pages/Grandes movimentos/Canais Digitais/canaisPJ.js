@@ -1,5 +1,5 @@
 import React from 'react';
-const canaisPJ = () => {
+const CanaisPJ = () => {
   return (
     <div>
       <h1>CanaisPJ</h1>
@@ -8,5 +8,5 @@ const canaisPJ = () => {
     </div>
   );
 };
-export default canaisPJ;
+export default CanaisPJ;
  

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const lowcode = () => {
+const Lowcode = () => {
   return (
     <div>
       <h1>Low code</h1>
@@ -10,4 +10,4 @@ const lowcode = () => {
   );
 };
 
-export default lowcode;
+export default Lowcode;

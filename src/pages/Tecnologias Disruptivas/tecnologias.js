@@ -1,5 +1,5 @@
 import React from 'react';
-const tecnologias = () => {
+const Tecnologias = () => {
   return (
     <div>
       <h1>Tecnologias</h1>
@@ -8,5 +8,5 @@ const tecnologias = () => {
     </div>
   );
 };
-export default tecnologias;
+export default Tecnologias;
  
