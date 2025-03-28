@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+/* Container principal */
+.container {
+  display: flex; /* Ativa o layout flexbox */
+  flex-direction: row; /* Organiza itens lado a lado (linha) */
+  height: 100vh; /* Ocupar toda a altura da tela */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Sidebar (barra lateral) */
+.sidebar {
+  width: 240px; /* Largura fixa para a barra lateral */
+  background-color: #f4f4f4; /* Cor de fundo */
+  padding: 16px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Conteúdo principal */
+.content {
+  flex: 1; /* O conteúdo principal ocupa o espaço restante */
+  padding: 16px;
+  background-color: #fff; /* Fundo branco */
+  overflow-y: auto; /* Permite rolagem vertical, se necessário */
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Empilha itens verticalmente */
+  }
+
+  .sidebar {
+    width: 100%; /* A barra lateral ocupa toda a largura */
+    height: auto; /* Altura automática */
+  }
+
+  .content {
+    margin-top: 16px; /* Espaçamento entre a barra lateral e o conteúdo */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
