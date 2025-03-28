@@ -1,0 +1,32 @@
+.ContainerProcessamento {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */
+    justify-content: space-between; /* Ajusta o espaçamento entre os itens */
+    height: 100vh; /* Faz a section ocupar toda a altura da tela */
+    width: 80%; /* Garantir que a section ocupe toda a largura */
+    margin: 0; /* Remove margens padrões do body e da section */
+    background-color: #d2cece;
+    padding: 0; /* Remove qualquer padding padrão */
+    margin-left: 19%;
+  }
+  
+  .ProcessamentoDIV {
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    margin: 10px; /* Para adicionar um pouco de espaço entre as divs */
+    width: calc(50% - 20px); /* Coloca duas divs por linha, com espaçamento */
+    height: calc(50vh - 20px); /* Faz com que cada div ocupe metade da altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Processamentoh1 {
+    font-size: 15px;
+    color: rgba(99, 99, 244, 0.911);
+    display: flex;
+ }
+  
