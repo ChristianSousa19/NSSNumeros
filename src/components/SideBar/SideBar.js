@@ -3,8 +3,6 @@ import {Drawer,List,ListItem,ListItemButton,ListItemIcon,ListItemText,Box,Collap
 import ExpandLess from "@mui/icons-material/ExpandLess"; // Ícone para expandir menus.
 import ExpandMore from "@mui/icons-material/ExpandMore"; // Ícone para recolher menus.
 import { styled } from "@mui/material/styles"; // Para estilizar componentes.
-
-
 import Translator from "../i18n/Translator";
 
 
@@ -13,10 +11,11 @@ const drawerWidth = 240; // Largura da barra lateral
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
-  alignItems: "center",
+  alignItems: "start",
   padding: theme.spacing(0, 1),
   ...theme.mixins.toolbar,
   justifyContent: "flex-end",
+  backgroundColor: "#031535"
 }));
 
 const menuItems = [
@@ -52,7 +51,7 @@ const menuItems = [
         name: "Canais Digitais",
         isSubmenu: true,
         submenu: [
-          { id: "5-5-1", name: "Canis Digitais", route: "/Grandes movimentos/Canais Digitais/" },
+          { id: "5-5-1", name: "Canis Digitais", route: "/Grandes movimentos/Canais Digitais/Canais" },
           { id: "5-5-2", name: "Canais PF", route: "/Grandes movimentos/Canais Digitais/CanaisPF" },
           { id: "5-5-3", name: "Canais PJ", route: "/Grandes movimentos/Canais Digitais/CanaisPJ" },
           { id: "5-5-4", name: "Whatsapp", route: "/Grandes movimentos/Canais Digitais/Whatsapp" },
@@ -101,6 +100,10 @@ const Sidebar = ({ open }) => {
         "& .MuiDrawer-paper": {
           width: drawerWidth,
           boxSizing: "border-box",
+            backgroundColor: "#031535",
+            display: "flex",
+            alignItems: "start",
+            justifyContent: "flex-start",
         },
       }}
       variant="persistent"
