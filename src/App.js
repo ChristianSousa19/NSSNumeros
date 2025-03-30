@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sidebar from "./components/SideBar/SideBar";
 import Home from "./pages/Home/Home";
@@ -31,12 +32,13 @@ import "./App.css"; // Importa o CSS
 const App = () => {
   return (
     <Router>
-      {/* Container principal usando display: flex */}
+      {/* Container principal utilizando display: flex */}
       <div className="app-container">
         <Sidebar open={true} />
         <div className="app-content">
           <Routes>
-            {/* Páginas principais */}
+            {/* Aqui definimos as rotas sem nenhuma lógica de redirecionamento automático */}
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/Sobre" element={<Sobre />} />
             <Route path="/Contato" element={<Contato />} />
@@ -76,8 +78,14 @@ const App = () => {
               path="/Grandes movimentos/Nuvem/Nuvem"
               element={<Nuvem />}
             />
-            <Route path="/Grandes movimentos/PIX/Pix" element={<Pix />} />
-            <Route path="/Grandes movimentos/BAAS/BAAS" element={<BASS />} />
+            <Route
+              path="/Grandes movimentos/PIX/Pix"
+              element={<Pix />}
+            />
+            <Route
+              path="/Grandes movimentos/BAAS/BAAS"
+              element={<BASS />}
+            />
             <Route
               path="/Grandes movimentos/Low Code/lowcode"
               element={<Lowcode />}
@@ -124,7 +132,10 @@ const App = () => {
               path="/Governança-e-Gestao/Gerenciamento-de-Servicos/Gerenciamento"
               element={<Gerenciamento />}
             />
-            <Route path="/Governança-e-Gestao/ASG/ASG" element={<ASG />} />
+            <Route
+              path="/Governança-e-Gestao/ASG/ASG"
+              element={<ASG />}
+            />
 
             {/* Tecnologias Disruptivas */}
             <Route
