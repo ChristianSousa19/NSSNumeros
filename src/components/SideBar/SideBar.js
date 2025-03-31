@@ -33,7 +33,7 @@ const menuItems = [
       { id: "4-2", name: "Connectividade", route: "/transacoes-de-TI/conectividade/Conectividade" },
       { id: "4-3", name: "Atendimento", route: "/transacoes-de-TI/Atendimento/Atendimento" },
       { id: "4-4", name: "Ambiente de Trabalho", route: "/transacoes-de-TI/Ambiente de trabalho/Ambiente" },
-      { id: "4-5", name: "Colaboração", route: "/transacoes-de-TI/Colaboracao/Colaboracao" },
+      { id: "4-5", name: "Colaboração", route: "/transacoes-de-TI/Colaboraçao/Colaboracao" },
       { id: "4-6", name: "Telefonia", route: "/transacoes-de-TI/Telefonia/Telefonia" },
     ],
   },
@@ -44,7 +44,7 @@ const menuItems = [
     isSubmenu: true,
     submenu: [
       { id: "5-1", name: "Nuvem", route: "/Grandes movimentos/Nuvem/Nuvem" },
-      { id: "5-2", name: "BaaS", route: "/Grandes movimentos/BASS/BASS" },
+      { id: "5-2", name: "BaaS", route: "/Grandes movimentos/BAAS/BAAS" },
       { id: "5-3", name: "Pix", route: "/Grandes movimentos/PIX/Pix" },
       { id: "5-4", name: "Low Code", route: "/Grandes movimentos/Low Code/lowcode" },
       {

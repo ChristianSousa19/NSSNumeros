@@ -1,4 +1,4 @@
-.ContainerProcessamento {
+.ContainerConectividade {
     display: flex;
     flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */
     justify-content: space-between; /* Ajusta o espaçamento entre os itens */
@@ -10,7 +10,7 @@
     margin-left: 19%;
   }
   
-  .ProcessamentoDIV {
+  .ConectividadeDIV {
     background-color: #ffffff;
     border-radius: 8px;
     display: flex;

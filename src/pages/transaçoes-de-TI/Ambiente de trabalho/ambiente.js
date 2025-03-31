@@ -1,12 +1,26 @@
 import React from 'react';
+import "./Ambiente.css"; 
 
 const Ambiente = () => {
   return (
-    <div>
-      <h1>Ambiente</h1>
-      <p>Bem-vindo à página de Ambiente. Aqui você pode gerenciar todas as informações relacionadas aos ambientes.</p>
+    <section className='ContainerAmbiente'>
+      
+    <div className='AmbienteDIV'>
+      
+      
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
+    <div className='AmbienteDIV'>
+    
+
+    </div>
+    <div className='AmbienteDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    
+    </section>
   );
 };
 

@@ -1,0 +1,22 @@
+.ContainerNuvemm {
+    display: flex;
+    flex-direction: column; /* Garante que os itens fiquem empilhados */
+    align-items: center; /* Centraliza as divs horizontalmente */
+    height: 100vh; /* Faz a section ocupar toda a altura da tela */
+    width: 80%; /* Garantir que a section ocupe toda a largura */
+    margin-left: 19%;
+    background-color: #d2cece;
+    padding: 0;
+}
+
+.NuvemDIV {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    margin: 10px 0; /* Espaçamento entre as divs */
+    width: 80%; /* Define a largura das divs */
+    height: calc(50vh - 20px); /* Divide a altura da tela em duas partes iguais */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

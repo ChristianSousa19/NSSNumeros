@@ -12,7 +12,7 @@ import Colaboracao from "./pages/transaçoes-de-TI/Colaboraçao/Coraboracao";
 import Telefonia from "./pages/transaçoes-de-TI/Telefonia/Telefonia";
 import Nuvem from "./pages/Grandes movimentos/Nuvem/Nuvem";
 import Pix from "./pages/Grandes movimentos/PIX/Pix";
-import BASS from "./pages/Grandes movimentos/BAAS/BAAS";
+import BAAS from "./pages/Grandes movimentos/BAAS/BAAS";
 import Lowcode from "./pages/Grandes movimentos/Low Code/Lowcode";
 import Canais from "./pages/Grandes movimentos/Canais Digitais/Canais";
 import CanaisPF from "./pages/Grandes movimentos/Canais Digitais/CanaisPF";
@@ -77,7 +77,7 @@ const App = () => {
               element={<Nuvem />}
             />
             <Route path="/Grandes movimentos/PIX/Pix" element={<Pix />} />
-            <Route path="/Grandes movimentos/BAAS/BAAS" element={<BASS />} />
+            <Route path="/Grandes movimentos/BAAS/BAAS" element={<BAAS />} />
             <Route
               path="/Grandes movimentos/Low Code/lowcode"
               element={<Lowcode />}

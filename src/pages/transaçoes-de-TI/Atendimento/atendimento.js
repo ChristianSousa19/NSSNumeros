@@ -1,12 +1,31 @@
 import React from 'react';
+import "./Atendimento.css"; 
 
 const Atendimento = () => {
   return (
-    <div>
-      <h1>Atendimento</h1>
-      <p>Bem-vindo à página de atendimento. Aqui você pode gerenciar todas as informações relacionadas aos atendimentos.</p>
+    <section className='ContainerAtendimento'>
+      
+    <div className='AtendimentoDIV'>
+      
+      
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
+    <div className='AtendimentoDIV'>
+    
+
+    </div>
+    <div className='AtendimentoDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    <div className='AtendimentoDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    
+    </section>
   );
 };
 

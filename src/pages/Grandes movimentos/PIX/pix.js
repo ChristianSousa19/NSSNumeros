@@ -1,12 +1,21 @@
 import React from 'react';
+import "./Pix.css";
 
 const Pix = () => {
   return (
-    <div>
-      <h1>Pix</h1>
-      <p>Bem-vindo à página de Pix. Aqui você pode gerenciar todas as informações relacionadas ao Pix.</p>
-      {/* Adicione mais conteúdo ou componentes conforme necessário */}
-    </div>
+    <section className='ContainerPix'>
+      <div className='RowContainer'>
+        <div className='PixDIV'></div>
+        <div className='PixDIV'></div>
+      </div>
+      <div className='RowContainer'>
+        <div className='PixDIV'></div>
+        <div className='PixDIV'></div>
+      </div>
+      <section className='ColumnPix'>
+        <div className='PixDIV'></div>
+      </section>
+    </section>
   );
 };
 
