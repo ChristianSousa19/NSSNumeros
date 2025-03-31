@@ -58,7 +58,7 @@ const menuItems = [
       {
         id: "4-5",
         name: "Colaboração",
-        route: "/transacoes-de-TI/Colaboracao/Colaboracao",
+        route: "/transacoes-de-TI/Colaboraçao/Colaboracao",
       },
       {
         id: "4-6",
