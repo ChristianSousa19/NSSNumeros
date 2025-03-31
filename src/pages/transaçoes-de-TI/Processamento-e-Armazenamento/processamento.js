@@ -1,12 +1,31 @@
 import React from 'react';
+import "./Processamento.css"; 
 
 const Processamento = () => {
   return (
-    <div>
-      <h1>processamento</h1>
-      <p>Bem-vindo à página de processamento. Aqui você pode gerenciar todas as informações relacionadas aos processamento.</p>
+    <section className='ContainerProcessamento'>
+      
+    <div className='ProcessamentoDIV'>
+      
+      
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
+    <div className='ProcessamentoDIV'>
+    
+
+    </div>
+    <div className='ProcessamentoDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    <div className='ProcessamentoDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    
+    </section>
   );
 };
 

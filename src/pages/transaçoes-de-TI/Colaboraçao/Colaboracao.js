@@ -1,13 +1,27 @@
 import React from 'react';
+import "./Colaboraçao.css"; 
 
-const Colaboracao = () => {
+const Colaboraçao = () => {
   return (
-    <div>
-      <h1>Colaboração</h1>
-      <p>Bem-vindo à página de colaboraçao. Aqui você pode gerenciar todas as informações relacionadas às colaborações.</p>
+    <section className='ContainerColaboraçao'>
+      
+    <div className='ColaboraçaoDIV'>
+      
+      
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
+    <div className='ColaboraçaoDIV'>
+    
+
+    </div>
+    <div className='ColaboraçaoDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    
+    </section>
   );
 };
 
-export default Colaboracao;
+export default Colaboraçao;

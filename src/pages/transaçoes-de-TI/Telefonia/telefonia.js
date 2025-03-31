@@ -1,13 +1,33 @@
 import React from 'react';
+import "./Telefonia.css"; 
 
 const Telefonia = () => {
   return (
-    <div>
-      <h1>Telefonia</h1>
-      <p>Bem-vindo à página de Telefonia. Aqui você pode gerenciar todas as informações relacionadas as telefonias.</p>
+    <section className='ContainerTelefonia'>
+      
+    <div className='TelefoniaDIV'>
+      
+      
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
+    <div className='TelefoniaDIV'>
+    
+
+    </div>
+    <div className='TelefoniaDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    <div className='TelefoniaDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    
+    </section>
   );
 };
+
 
 export default Telefonia;

@@ -73,7 +73,7 @@ const menuItems = [
     isSubmenu: true,
     submenu: [
       { id: "5-1", name: "Nuvem", route: "/Grandes movimentos/Nuvem/Nuvem" },
-      { id: "5-2", name: "BaaS", route: "/Grandes movimentos/BASS/BASS" },
+      { id: "5-2", name: "BaaS", route: "/Grandes movimentos/BAAS/BAAS" },
       { id: "5-3", name: "Pix", route: "/Grandes movimentos/PIX/Pix" },
       { id: "5-4", name: "Low Code", route: "/Grandes movimentos/Low Code/lowcode" },
       {
