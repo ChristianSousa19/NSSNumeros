@@ -1,0 +1,15 @@
+.logo img {
+    width: 180px; /* Largura ajustada */
+    height: auto; /* Mantém a proporção */
+    
+  }
+
+    
+.logo{
+    margin-right: 19%;
+   
+}
+.list-item:hover {
+    color: red; /* Altere para vermelho ao passar o mouse */
+  }
+  
