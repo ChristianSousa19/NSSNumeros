@@ -5,9 +5,10 @@
     height: 100vh; /* Faz a section ocupar toda a altura da tela */
     width: 80%; /* Garantir que a section ocupe toda a largura */
     margin: 0; /* Remove margens padrões do body e da section */
-    background-color: #d2cece;
+    background-color: #c3c3c3;
     padding: 0; /* Remove qualquer padding padrão */
     margin-left: 19%;
+    
   }
   
   .ProcessamentoDIV {

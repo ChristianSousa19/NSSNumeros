@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sidebar from "./components/SideBar/SideBar";
 import Home from "./pages/Home/Home";
@@ -6,7 +6,7 @@ import Sobre from "./pages/Sobre/Sobre";
 import Contato from "./pages/Contato/Contato";
 import Processamento from "./pages/transaçoes-de-TI/Processamento-e-Armazenamento/Processamento";
 import Pagina2 from "./pages/transaçoes-de-TI/Processamento-e-Armazenamento/Pagina2";
-import Conectividade from "./pages/transaçoes-de-TI/Conectividade/Conectividade";
+import Conectividade from "./pages/transaçoes-de-TI/conectividade/Conectividade";
 import Atendimento from "./pages/transaçoes-de-TI/Atendimento/Atendimento";
 import Ambiente from "./pages/transaçoes-de-TI/Ambiente de trabalho/Ambiente";
 import Colaboracao from "./pages/transaçoes-de-TI/Colaboraçao/Colaboracao";
@@ -28,12 +28,21 @@ import Gerenciamento from "./pages/Governança-e-Gestao/Gerenciamento-de-Serviç
 import ASG from "./pages/Governança-e-Gestao/ASG/ASG";
 import Tecnologias from "./pages/Tecnologias Disruptivas/Tecnologias";
 import "./App.css"; // Importa o CSS
+import HeaderComFiltro from "./components/Header/HeaderComFiltro";
+
 
 const App = () => {
+  const [mesSelecionado, setMesSelecionado] = useState("janeiro");
+  const [anoSelecionado, setAnoSelecionado] = useState("2023");
   return (
     <Router>
       {/* Container principal utilizando display: flex */}
       <div className="app-container">
+      <HeaderComFiltro 
+          onMesSelecionado={setMesSelecionado}
+          onAnoSelecionado={setAnoSelecionado}
+        />
+      
         <Sidebar open={true} />
         <div className="app-content">
           <Routes>
@@ -46,7 +55,7 @@ const App = () => {
             {/* Transações de TI */}
             <Route
               path="/transacoes-de-TI/processamento-e-armazenamento/Processamento"
-              element={<Processamento />}
+              element={<Processamento mesSelecionado={mesSelecionado} anoSelecionado={anoSelecionado} />}
             />
             <Route
               path="/transacoes-de-TI/processamento-e-armazenamento/Pagina2"
