@@ -6,7 +6,7 @@ import Sobre from "./pages/Sobre/Sobre";
 import Contato from "./pages/Contato/Contato";
 import Processamento from "./pages/transaçoes-de-TI/Processamento-e-Armazenamento/Processamento";
 import Pagina2 from "./pages/transaçoes-de-TI/Processamento-e-Armazenamento/Pagina2";
-import Conectividade from "./pages/transaçoes-de-TI/conectividade/Conectividade";
+import Conectividade from "./pages/transaçoes-de-TI/Conectividade/Conectividade";
 import Atendimento from "./pages/transaçoes-de-TI/Atendimento/Atendimento";
 import Ambiente from "./pages/transaçoes-de-TI/Ambiente de trabalho/Ambiente";
 import Colaboracao from "./pages/transaçoes-de-TI/Colaboraçao/Colaboracao";
@@ -29,19 +29,14 @@ import ASG from "./pages/Governança-e-Gestao/ASG/ASG";
 import Tecnologias from "./pages/Tecnologias Disruptivas/Tecnologias";
 import "./App.css"; // Importa o CSS
 import HeaderComFiltro from "./components/Header/HeaderComFiltro";
-
-
+import { FilterProvider } from "./contexts/FilterContext";
 const App = () => {
-  const [mesSelecionado, setMesSelecionado] = useState("janeiro");
-  const [anoSelecionado, setAnoSelecionado] = useState("2023");
   return (
+    <FilterProvider>
     <Router>
       {/* Container principal utilizando display: flex */}
       <div className="app-container">
-      <HeaderComFiltro 
-          onMesSelecionado={setMesSelecionado}
-          onAnoSelecionado={setAnoSelecionado}
-        />
+      <HeaderComFiltro />
       
         <Sidebar open={true} />
         <div className="app-content">
@@ -55,7 +50,7 @@ const App = () => {
             {/* Transações de TI */}
             <Route
               path="/transacoes-de-TI/processamento-e-armazenamento/Processamento"
-              element={<Processamento mesSelecionado={mesSelecionado} anoSelecionado={anoSelecionado} />}
+              element={<Processamento/>}
             />
             <Route
               path="/transacoes-de-TI/processamento-e-armazenamento/Pagina2"
@@ -70,7 +65,7 @@ const App = () => {
               element={<Atendimento />}
             />
             <Route
-              path="/transacoes-de-TI/Ambiente de Trabalho/ambiente"
+              path="/transacoes-de-TI/Ambiente de Trabalho/Ambiente"
               element={<Ambiente />}
             />
             <Route
@@ -155,6 +150,7 @@ const App = () => {
         </div>
       </div>
     </Router>
+     </FilterProvider>
   );
 };
 

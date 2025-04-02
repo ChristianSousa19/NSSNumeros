@@ -1,26 +1,244 @@
 {
   "dados": [
     {
-      "mes": "janeiro",
-      "dias": [
-        { "dia": "2025-01-01", "valor": 100 },
-        { "dia": "2025-01-02", "valor": 150 },
-        { "dia": "2024-01-01", "valor": 100 },
-        { "dia": "2024-01-02", "valor": 150 },
-        { "dia": "2023-01-01", "valor": 100 },
-        { "dia": "2023-01-02", "valor": 150 }
-      ]
+      "ID_Assunto": "inf15",
+      "Data": "2023-03-01",
+      "Valor": 44755,
+      "Briefing": "Favor obter informação de crescimento mês a mês com a UOR responsável pela informação.",
+      "Solicitacao": "SLCTI000185",
+      "Reg_Vig": "S",
+      "DT_INI": "2023-10-16",
+      "DT_FIM": ""
     },
     {
-      "mes": "fevereiro",
-      "dias": [
-        { "dia": "2025-02-01", "valor": 100 },
-        { "dia": "2025-02-02", "valor": 150 },
-        { "dia": "2024-02-01", "valor": 100 },
-        { "dia": "2024-02-02", "valor": 150 },
-        { "dia": "2023-02-01", "valor": 100 },
-        { "dia": "2023-02-02", "valor": 150 }
-      ]
+      "ID_Assunto": "inf15",
+      "Data": "2023-04-01",
+      "Valor": 44112,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-05-01",
+      "Valor": 45168,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-06-01",
+      "Valor": 46497,
+      "Briefing": "Favor obter informação de crescimento mês a mês com a UOR responsável pela informação.",
+      "Solicitacao": "SLCTI000185",
+      "Reg_Vig": "S",
+      "DT_INI": "2023-10-16",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-07-01",
+      "Valor": 46339,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-08-01",
+      "Valor": 47270,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-09-01",
+      "Valor": 50320,
+      "Briefing": "Favor obter informação de crescimento mês a mês com a UOR responsável pela informação.",
+      "Solicitacao": "SLCTI000185",
+      "Reg_Vig": "S",
+      "DT_INI": "2023-10-16",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-10-01",
+      "Valor": 49559,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-11-01",
+      "Valor": 51532,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2023-12-01",
+      "Valor": 51284,
+      "Briefing": "Expansão de VMs principalmente do Mobile e Segurança para atendimento à demanda de final de ano",
+      "Solicitacao": "SLCTI000222",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-01-05",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-01-01",
+      "Valor": 51598,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-02-01",
+      "Valor": 51834,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-03-01",
+      "Valor": 52376,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLCTI000321",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-04-22",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-04-01",
+      "Valor": 55476,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-05-15",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-05-01",
+      "Valor": 62931,
+      "Briefing": "Passaram a contabilizar os servidores desligados também, pois ocupam recursos de TI.",
+      "Solicitacao": "",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-06-10",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-06-01",
+      "Valor": 64233,
+      "Briefing": "Passaram a contabilizar os servidores desligados também, pois ocupam recursos de TI.",
+      "Solicitacao": "SLCTI000410",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-07-16",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-07-01",
+      "Valor": 62306,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0002755",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-08-07",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-08-01",
+      "Valor": 64166,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0002813",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-09-12",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-09-01",
+      "Valor": 64435,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0002864",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-10-07",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-10-01",
+      "Valor": 64405,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0002905",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-11-07",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-11-01",
+      "Valor": 67521.0,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0002962",
+      "Reg_Vig": "S",
+      "DT_INI": "2024-12-10",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2024-12-01",
+      "Valor": 67502.0,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0002998",
+      "Reg_Vig": "S",
+      "DT_INI": "2025-01-08",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2025-01-01",
+      "Valor": 67333.0,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0003032",
+      "Reg_Vig": "S",
+      "DT_INI": "2025-02-10",
+      "DT_FIM": ""
+    },
+    {
+      "ID_Assunto": "inf15",
+      "Data": "2025-02-01",
+      "Valor": 66587.0,
+      "Briefing": "Sem observações por parte do gestor da informação.",
+      "Solicitacao": "SLTC0003061",
+      "Reg_Vig": "S",
+      "DT_INI": "2025-03-11",
+      "DT_FIM": ""
     }
   ]
 }

@@ -1,41 +1,37 @@
-import React, { useState } from "react";
+// HeaderComFiltro.jsx
+import React, { useContext } from "react";
 import "./Header.css";
+import { FilterContext } from "../../contexts/FilterContext";
 
-const HeaderComFiltro = ({ onMesSelecionado, onAnoSelecionado }) => {
-  const [mesSelecionado, setMesSelecionado] = useState("janeiro");
-  const [anoSelecionado, setAnoSelecionado] = useState("2023");
-
-  const handleMesChange = (e) => {
-    const mes = e.target.value;
-    setMesSelecionado(mes);
-    onMesSelecionado(mes); // Passa o mês selecionado para o App.js
-  };
+const HeaderComFiltro = () => {
+  const { anoSelecionado, setAnoSelecionado, agrupamentoSelecionado, setAgrupamentoSelecionado } =
+    useContext(FilterContext);
 
   const handleAnoChange = (e) => {
-    const ano = e.target.value;
-    setAnoSelecionado(ano);
-    onAnoSelecionado(ano); // Passa o ano selecionado para o App.js
+    setAnoSelecionado(e.target.value);
+  };
+
+  const handleAgrupamentoChange = (e) => {
+    setAgrupamentoSelecionado(e.target.value);
   };
 
   return (
     <header className="header-com-filtro">
       <img
-        src={require("../../image/bancoicon.png")} // Importa o ícone do caminho correto
+        src={require("../../image/bancoicon.png")}
         alt="Ícone do Banco"
         className="header-icon"
       />
-      
-      <select value={mesSelecionado} onChange={handleMesChange}>
-        <option value="janeiro">Janeiro</option>
-        <option value="fevereiro">Fevereiro</option>
-        {/* Adicione mais meses conforme necessário */}
-      </select>
-      
+      {/* Filtro de ano */}
       <select value={anoSelecionado} onChange={handleAnoChange}>
         <option value="2023">2023</option>
         <option value="2024">2024</option>
         <option value="2025">2025</option>
-        {/* Adicione mais anos conforme necessário */}
+      </select>
+      {/* Filtro de agregação: mensal ou trimestral */}
+      <select value={agrupamentoSelecionado} onChange={handleAgrupamentoChange}>
+        <option value="mensal">Mensal</option>
+        <option value="trimestral">Trimestral</option>
       </select>
     </header>
   );
