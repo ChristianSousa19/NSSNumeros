@@ -1,43 +1,46 @@
+/* Estilos gerais */
 .ContainerPix {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 80%;
     margin-left: 19%;
     background-color: #d2cece;
     padding: 0;
-}
-
-.RowContainer {
+  }
+  
+  .RowContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
     width: 100%;
-}
-
-.RowContainer .PixDIV {
-    width: calc(50% - 20px);
-    height: calc(25vh - 20px);
+    max-width: 1000px;
+    gap: 10px;
+  }
+  
+  .PixDIV {
+    width: calc(25% - 10px); /* Quatro divs lado a lado */
+    height: calc(40vh - 10px); /* Ajuste proporcional à tela */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
-    margin: 10px;
-}
-
-.ColumnPix {
+    margin: 5px;
+  }
+  
+  .ColumnPix {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin-top: 20px;
-}
-
-.ColumnPix .PixDIV {
+  }
+  
+  .ColumnPix .PixDIV {
     width: 80%;
     height: calc(50vh - 20px);
     background-color: #ffffff;
@@ -47,4 +50,24 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
-}
+  }
+  
+  /* Responsividade */
+  @media (max-width: 800px) {
+    .RowContainer {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .PixDIV {
+      width: calc(50% - 10px); /* Ajuste para duas colunas em telas menores */
+      height: calc(30vh - 10px);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .PixDIV {
+      width: 100%; /* Uma coluna única em telas pequenas */
+    }
+  }
+  

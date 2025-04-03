@@ -1,12 +1,18 @@
 import React from 'react';
+import "./Lowcode.css";
 
 const Lowcode = () => {
   return (
-    <div>
-      <h1>Low code</h1>
-      <p>Bem-vindo à página de Low code. Aqui você pode gerenciar todas as informações relacionadas às pessoas.</p>
-      {/* Adicione mais conteúdo ou componentes conforme necessário */}
-    </div>
+    <section className='ContainerLowcode'>
+      <div className='RowContainer'>
+        <div className='LowcodeDIV'></div>
+        <div className='LowcodeDIV'></div>
+      </div>
+      <section className='ColumnLowcode'>
+        <div className='LowcodeDIV'></div>
+        
+      </section>
+    </section>
   );
 };
 
