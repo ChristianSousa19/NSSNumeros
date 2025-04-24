@@ -13,8 +13,7 @@
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
     "react-router-dom": "^7.4.0",
-    "react-scripts": "^5.0.1",
-    "typescript": "^5.8.2"
+    "recharts": "^2.15.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,6 +42,8 @@
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "react-refresh": "^0.16.0",
-    "source-map-loader": "^5.0.0"
+    "react-scripts": "^5.0.1",
+    "source-map-loader": "^5.0.0",
+    "typescript": "^5.8.2"
   }
 }

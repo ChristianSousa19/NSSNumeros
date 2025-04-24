@@ -1,20 +1,20 @@
 import React from 'react';
-import "./Ambiente.css"; 
+import "./Colaboraçao.css"; 
 
-const Ambiente = () => {
+const Colaboraçao = () => {
   return (
-    <section className='ContainerAmbiente'>
+    <section className='ContainerColaboraçao'>
       
-    <div className='AmbienteDIV'>
+    <div className='ColaboraçaoDIV'>
       
       
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
-    <div className='AmbienteDIV'>
+    <div className='ColaboraçaoDIV'>
     
 
     </div>
-    <div className='AmbienteDIV'>
+    <div className='ColaboraçaoDIV'>
       
       
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
@@ -24,4 +24,4 @@ const Ambiente = () => {
   );
 };
 
-export default Ambiente;
+export default Colaboraçao;

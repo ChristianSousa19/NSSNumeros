@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sidebar from "./components/SideBar/SideBar";
 import Home from "./pages/Home/Home";
@@ -6,15 +6,15 @@ import Sobre from "./pages/Sobre/Sobre";
 import Contato from "./pages/Contato/Contato";
 import Processamento from "./pages/transaçoes-de-TI/Processamento-e-Armazenamento/Processamento";
 import Pagina2 from "./pages/transaçoes-de-TI/Processamento-e-Armazenamento/Pagina2";
-import Conectividade from "./pages/transaçoes-de-TI/conectividade/Conectividade";
+import Conectividade from "./pages/transaçoes-de-TI/Conectividade/Conectividade";
 import Atendimento from "./pages/transaçoes-de-TI/Atendimento/Atendimento";
 import Ambiente from "./pages/transaçoes-de-TI/Ambiente de trabalho/Ambiente";
-import Colaboracao from "./pages/transaçoes-de-TI/Colaboraçao/Coraboracao";
+import Colaboracao from "./pages/transaçoes-de-TI/Colaboraçao/Colaboracao";
 import Telefonia from "./pages/transaçoes-de-TI/Telefonia/Telefonia";
 import Nuvem from "./pages/Grandes movimentos/Nuvem/Nuvem";
 import Pix from "./pages/Grandes movimentos/PIX/Pix";
 import BASS from "./pages/Grandes movimentos/BAAS/BAAS";
-import Lowcode from "./pages/Grandes movimentos/Low Code/lowcode";
+import Lowcode from "./pages/Grandes movimentos/Low Code/Lowcode";
 import Canais from "./pages/Grandes movimentos/Canais Digitais/Canais";
 import CanaisPF from "./pages/Grandes movimentos/Canais Digitais/CanaisPF";
 import CanaisPJ from "./pages/Grandes movimentos/Canais Digitais/CanaisPJ";
@@ -28,12 +28,16 @@ import Gerenciamento from "./pages/Governança-e-Gestao/Gerenciamento-de-Serviç
 import ASG from "./pages/Governança-e-Gestao/ASG/ASG";
 import Tecnologias from "./pages/Tecnologias Disruptivas/Tecnologias";
 import "./App.css"; // Importa o CSS
-
+import HeaderComFiltro from "./components/Header/HeaderComFiltro";
+import { FilterProvider } from "./contexts/FilterContext";
 const App = () => {
   return (
+    <FilterProvider>
     <Router>
       {/* Container principal utilizando display: flex */}
       <div className="app-container">
+      <HeaderComFiltro />
+      
         <Sidebar open={true} />
         <div className="app-content">
           <Routes>
@@ -46,7 +50,7 @@ const App = () => {
             {/* Transações de TI */}
             <Route
               path="/transacoes-de-TI/processamento-e-armazenamento/Processamento"
-              element={<Processamento />}
+              element={<Processamento/>}
             />
             <Route
               path="/transacoes-de-TI/processamento-e-armazenamento/Pagina2"
@@ -61,7 +65,7 @@ const App = () => {
               element={<Atendimento />}
             />
             <Route
-              path="/transacoes-de-TI/Ambiente de Trabalho/ambiente"
+              path="/transacoes-de-TI/Ambiente de Trabalho/Ambiente"
               element={<Ambiente />}
             />
             <Route
@@ -146,6 +150,7 @@ const App = () => {
         </div>
       </div>
     </Router>
+     </FilterProvider>
   );
 };
 

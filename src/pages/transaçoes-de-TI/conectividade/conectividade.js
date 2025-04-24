@@ -1,12 +1,31 @@
 import React from 'react';
+import "./Conectividade.css"; 
 
 const Conectividade = () => {
   return (
-    <div>
-      <h1>Conectividade</h1>
-      <p>Bem-vindo à página de conectividade. Aqui você pode gerenciar todas as informações relacionadas às conectividade.</p>
+    <section className='ContainerConectividade'>
+      
+    <div className='ConectividadeDIV'>
+      
+      
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
+    <div className='ConectividadeDIV'>
+    
+
+    </div>
+    <div className='ConectividadeDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    <div className='ConectividadeDIV'>
+      
+      
+      {/* Adicione mais conteúdo ou componentes conforme necessário */}
+    </div>
+    
+    </section>
   );
 };
 

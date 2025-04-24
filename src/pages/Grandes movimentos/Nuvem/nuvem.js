@@ -1,12 +1,21 @@
 import React from 'react';
+import "./Nuvem.css"; 
 
 const Nuvem = () => {
   return (
-    <div>
-      <h1>Nuvem</h1>
-      <p>Bem-vindo à página de nuvem. Aqui você pode gerenciar todas as informações relacionadas às nuvens.</p>
+    <section className='ContainerNuvem'>
+      
+    <div className='NuvemDIV'>
+      
+      
       {/* Adicione mais conteúdo ou componentes conforme necessário */}
     </div>
+    <div className='NuvemDIV'>
+    
+
+    </div>
+    
+    </section>
   );
 };
 

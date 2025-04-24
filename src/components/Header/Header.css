@@ -1,0 +1,17 @@
+.header-com-filtro {
+    display: flex;
+    border-radius: 3rem;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000000; /* Define um fundo claro */
+    color: #ffffff; /* Cor do texto para contraste */
+    border-bottom: 1px solid #ddd; /* Linha de separação */
+    position: relative; /* Garante que o header esteja posicionado corretamente */
+    z-index: 1000; /* Garante que ele esteja visível acima dos outros elementos */
+    margin-left: 16.5%;
+  }
+  .header-icon {
+    width: 40px; /* Tamanho do ícone */
+    height: auto; /* Proporção do ícone */
+    margin-left: 5%; /* Espaço entre o ícone e o texto */
+  }
